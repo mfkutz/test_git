@@ -1,15 +1,15 @@
-import { useState } from "react"
+import { useCounter } from "../hooks/useCounter"
 
 const Counter = () => {
 
-    const [count, setCount] = useState(0)
+    const {counter,suma,rest} = useCounter(0)
 
   return (
     <>
     <div>Actualizacion desde el componente rama 2</div>
-    <button onClick={() => setCount(count + 1)}>Incrementar</button>
-    <button onClick={() => setCount(count - 1)}>Decrementar</button>
-    <p>Contador: {count}</p>
+    <button onClick={() =>{suma()}}>+</button>
+    <button onClick={() => {rest()}}>-</button>
+    <p>Contador: {counter}</p>
     </>
   )
 }
