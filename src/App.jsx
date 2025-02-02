@@ -32,16 +32,9 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-        <p>
-        other new text here for test
-        </p>
-        <p>
-        other new text2 here for test
-        </p>
-        <p>
-        other new text3 here for test
-        </p>
       </p>
+
+      <p>Borré todos los textos</p>
     </>
   )
 }
