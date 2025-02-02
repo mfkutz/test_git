@@ -35,6 +35,9 @@ function App() {
         <p>
         other new text here for test
         </p>
+        <p>
+        other new text2 here for test
+        </p>
       </p>
     </>
   )
