@@ -38,6 +38,9 @@ function App() {
         <p>
         other new text2 here for test
         </p>
+        <p>
+        other new text3 here for test
+        </p>
       </p>
     </>
   )
