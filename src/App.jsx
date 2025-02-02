@@ -35,6 +35,7 @@ function App() {
       </p>
 
       <p>Borré todos los textos</p>
+      <p>2 + 2</p>
     </>
   )
 }
